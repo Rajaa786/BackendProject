@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>User Page</title>>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="userpage.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="userprofile">
+
+        <div><span>UserName : </span>{{userCredentials.username_}}</div>
+        <div><span>Email : </span>{{userCredentials.email_}}</div>
+        <form action="/logout" method="post">
+          <input id="logoutBtn" type="submit"
+       value="Logout"/>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
